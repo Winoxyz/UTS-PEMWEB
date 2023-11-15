@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Form</title>
+</head>
+<body>
+    <form>
+    <fieldset style="background-color: darksalmon; border: 4px solid black;">
+        <legend>
+            Form Daftar Seminar TA
+        </legend>
+         <div style="display: flex; background-color: antiquewhite;">
+            <div>
+            <table>
+            <tr>
+                <td><label for="NIM">NIM: </label></td>
+                <td><input type="text" id="NIM"></td>
+            </tr>
+            <tr>
+                <td><label for="Nama">Nama: </label></td>
+                <td><input type="text" id="Nama"></td>
+            </tr>
+            <tr>
+                <td>Prodi:</td>
+                <td>
+                    <select style="background-color: white;">
+                        <option value="0">Sistem Informasi</option>
+                        <option value="1">Teknik Informatika</option>
+                        <option value="2">Bisnis Digital</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="date">Tanggal Seminar: </label></td>
+                <td><input type="date" id="date"></td>
+            </tr>
+            <tr>
+                <td><label for="hours">Jam Seminar: </label></td>
+                <td><input type="text" id="hours"></td>
+            </tr>
+            <tr>
+                <td><label for="ruangan">Ruangan: </label></td>
+                <td><input type="text" id="ruangan"></td>
+            </tr>
+            <tr>
+                <td><button style="background-color: white; border: solid 2px black;">Daftar</button></td>
+            </tr>
+        </table>
+        </div>
+        <table border="2">
+        <div>
+            <tr>
+                <td><label for="Judul TA">Judul TA: </label></td>
+                <td><textarea name="text" cols="70" rows="5" id="Judul TA"></textarea></td>
+            </tr>
+            <br>
+            <tr>
+            <td>Seminar: </td>
+                <td>
+                    <select style="background-color: white;">
+                        <option>Proposal</option>
+                    </select>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>Pembimbing: </td>
+                    <td>
+                        <select  style="background-color: white;">
+                            <option>Sirojul Munir S SI,M.KOM</option>
+                        </select>
+                    </td>
+            </tr>
+            <br>
+                <tr>
+                    <td>Penguji 1: </td>
+                        <td>
+                            <select  style="background-color: white;">
+                                <option>Ahmad Rio M SI</option>
+                            </select>
+                        </td>
+                 </tr>
+            <br>
+                    <tr>
+                        <td>Penguji 2: </td>
+                            <td>
+                                <select  style="background-color: white;">
+                                    <option>Amalia Rahmah M.T</option>
+                                </select>
+                            </td>
+                    </tr>
+        </div>
+    </table>
+    </fieldset>
+    </form>
+</body>
+</html>
